@@ -1,0 +1,6 @@
+[book]
+authors = ["Brett Bender"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Brett Bender - Docs"
