@@ -1,7 +1,7 @@
 name: Create CNAME
 
 on:
-  - page-build
+  - page_build
 
 jobs:
   build:
