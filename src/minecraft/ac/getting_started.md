@@ -83,6 +83,7 @@ public class example extends CorePlugin {
 }
 ```
 
+---
 
 ## Help
 If you need help with AC feel free to message me on Discord @ `apollo#9292`, or opening an issue on [GitHub][src]
