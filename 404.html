@@ -3,8 +3,10 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Usage - Brett Bender - Docs</title>
+        <title></title>
         
+        
+        <base href="/">
         
 
 
@@ -18,28 +20,28 @@
         <meta name="theme-color" content="#ffffff" />
 
         
-        <link rel="icon" href="../../favicon.svg">
+        <link rel="icon" href="favicon.svg">
         
         
-        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="shortcut icon" href="favicon.png">
         
-        <link rel="stylesheet" href="../../css/variables.css">
-        <link rel="stylesheet" href="../../css/general.css">
-        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
         
-        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <link rel="stylesheet" href="css/print.css" media="print">
         
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         
-        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
         
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="../../highlight.css">
-        <link rel="stylesheet" href="../../tomorrow-night.css">
-        <link rel="stylesheet" href="../../ayu-highlight.css">
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         
@@ -49,7 +51,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "../../";
+            var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -95,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../../index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../minecraft/index.html"><strong aria-hidden="true">2.</strong> Minecraft</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../minecraft/ac/index.html"><strong aria-hidden="true">2.1.</strong> Apollo Core</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../minecraft/ac/getting_started.html"><strong aria-hidden="true">2.1.1.</strong> Getting Started</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../spacebin/index.html"><strong aria-hidden="true">3.</strong> Spacebin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../spacebin/gospacebin/index.html"><strong aria-hidden="true">3.1.</strong> gospacebin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../spacebin/gospacebin/usage.html"><strong aria-hidden="true">3.1.1.</strong> Usage</a></li></ol></li><li class="chapter-item expanded "><a href="../../spacebin/lunar/index.html"><strong aria-hidden="true">3.2.</strong> lunar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../spacebin/lunar/installation.html"><strong aria-hidden="true">3.2.1.</strong> Installation</a></li><li class="chapter-item expanded "><a href="../../spacebin/lunar/usage.html" class="active"><strong aria-hidden="true">3.2.2.</strong> Usage</a></li><li class="chapter-item expanded "><a href="../../spacebin/lunar/configuration.html"><strong aria-hidden="true">3.2.3.</strong> Configuration</a></li></ol></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="minecraft/index.html"><strong aria-hidden="true">2.</strong> Minecraft</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="minecraft/ac/index.html"><strong aria-hidden="true">2.1.</strong> Apollo Core</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="minecraft/ac/getting_started.html"><strong aria-hidden="true">2.1.1.</strong> Getting Started</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="spacebin/index.html"><strong aria-hidden="true">3.</strong> Spacebin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="spacebin/gospacebin/index.html"><strong aria-hidden="true">3.1.</strong> gospacebin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="spacebin/gospacebin/usage.html"><strong aria-hidden="true">3.1.1.</strong> Usage</a></li></ol></li><li class="chapter-item expanded "><a href="spacebin/lunar/index.html"><strong aria-hidden="true">3.2.</strong> lunar</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="spacebin/lunar/installation.html"><strong aria-hidden="true">3.2.1.</strong> Installation</a></li><li class="chapter-item expanded "><a href="spacebin/lunar/usage.html"><strong aria-hidden="true">3.2.2.</strong> Usage</a></li><li class="chapter-item expanded "><a href="spacebin/lunar/configuration.html"><strong aria-hidden="true">3.2.3.</strong> Configuration</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -131,7 +133,7 @@
 
                     <div class="right-buttons">
                         
-                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
@@ -163,55 +165,15 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#usage" id="usage">Usage</a></h1>
-<pre><code class="language-shell">$ lunar --help
-    Lunar is a CLI for Spacebin that allows you to easily make documents.
-    This application can be used in a couple of different ways
-    to quickly create a document on an instance.
-    
-    You can either pipe a document into lunar by doing:
-    'command | lunar'
-    
-    or upload a document directly:
-    'lunar -f file.txt'
-    
-    Usage:
-      lunar [flags]
-    
-    Flags:
-          --config string       config file (default is $HOME/.lunar.yaml)
-      -f, --file string         the file to upload
-      -h, --help                help for lunar
-      -i, --instance string     the spacebin instance (default &quot;https://api.spaceb.in&quot;)
-      -r, --raw                 do you want the raw url
-          --result-url string   the base url for response (default &quot;https://spaceb.in&quot;)
-      -v, --version             version for lunar
-</code></pre>
-<p><code>lunar</code> is pretty straight forward to use. You can either pipe a document into <code>lunar</code> by doing:</p>
-<pre><code class="language-shell"># *unix
-$ cat file.txt | lunar
-
-# Windows
-$ type file.txt | lunar
-</code></pre>
-<p>or specify a document to upload:</p>
-<pre><code class="language-shell">$ lunar -f file.txt
-</code></pre>
+                        <h1><a class="header" href="#document-not-found-404" id="document-not-found-404">Document not found (404)</a></h1>
+<p>Heyo! That page doesn't exist... Try searching instead!</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="../../spacebin/lunar/installation.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="../../spacebin/lunar/configuration.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -221,15 +183,7 @@ $ type file.txt | lunar
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="../../spacebin/lunar/installation.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a rel="next" href="../../spacebin/lunar/configuration.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
                 
             </nav>
 
@@ -250,14 +204,14 @@ $ type file.txt | lunar
         
 
         
-        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
-        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         
