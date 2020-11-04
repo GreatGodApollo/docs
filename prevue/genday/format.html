@@ -193,6 +193,9 @@ they're pretty darn simple!</p>
       &quot;number&quot;: 1,
       &quot;id&quot;: &quot;TST001&quot;,
       &quot;callsign&quot;: &quot;TST&quot;,
+      &quot;hilite&quot;: false,
+      &quot;althilite&quot;: false,
+      &quot;summary&quot;: false,
       &quot;listings&quot;: [
         {
           &quot;time&quot;: &quot;00:00&quot;,
@@ -211,6 +214,19 @@ they're pretty darn simple!</p>
   ]
 }
 </code></pre>
+<p>The only things that <em>could</em> use a little bit of exlpaining are the flags:</p>
+<pre><code class="language-json">{
+  ...
+      &quot;hilite&quot;: false,
+      &quot;althilite&quot;: false,
+      &quot;summary&quot;: false,
+  ...
+}
+</code></pre>
+<p><code>hilite</code> is the red background highlight, <code>althilite</code> is the blue background highlight, 
+and <code>summary</code> marks it as a summary channel as well. Unfortunately, due to the way I 
+programmed things, you <strong>do</strong> need to specify all of these options as false, even if
+you aren't using them.</p>
 
                     </main>
 
