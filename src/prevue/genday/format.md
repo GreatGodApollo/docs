@@ -38,6 +38,9 @@ they're pretty darn simple!
       "number": 1,
       "id": "TST001",
       "callsign": "TST",
+      "hilite": false,
+      "althilite": false,
+      "summary": false,
       "listings": [
         {
           "time": "00:00",
@@ -56,3 +59,19 @@ they're pretty darn simple!
   ]
 }
 ```
+
+The only things that *could* use a little bit of exlpaining are the flags:
+```json
+{
+  ...
+      "hilite": false,
+      "althilite": false,
+      "summary": false,
+  ...
+}
+```
+
+`hilite` is the red background highlight, `althilite` is the blue background highlight, 
+and `summary` marks it as a summary channel as well. Unfortunately, due to the way I 
+programmed things, you **do** need to specify all of these options as false, even if
+you aren't using them.
