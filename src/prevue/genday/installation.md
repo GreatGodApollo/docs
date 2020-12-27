@@ -14,3 +14,10 @@ If you **do** have go installed, you can just run a single command to install `g
 ```shell
 $ go get -u github.com/GreatGodApollo/genday
 ```
+
+### Scoop
+If you happen to have [scoop](https://github.com/lukesampson/scoop) installed, I happen to have a [scoop](https://github.com/lukesampson/scoop) bucket. Said bucket's name is [Trough](https://github.com/GreatGodApollo/trough).
+```shell
+$ scoop bucket add trough https://github.com/GreatGodApollo/trough.git
+$ scoop install genday
+```
