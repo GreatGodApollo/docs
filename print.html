@@ -165,31 +165,31 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#welcome" id="welcome">Welcome</a></h1>
+                        <h1 id="welcome"><a class="header" href="#welcome">Welcome</a></h1>
 <p>Welcome to my docs! This is the place to look for everything to do with my projects.
 Feel free to look around, or just go straight to what you're looking for.</p>
 <p>These docs are sorted, for the most part, alphabetically. Nothing here is ranked as being better than another project.</p>
 <hr />
 <p>These docs are generated with <a href="https://github.com/rust-lang/mdBook">mdBook</a>, like Gitbook but in Rust.</p>
-<h1><a class="header" href="#minecraft" id="minecraft">Minecraft</a></h1>
+<h1 id="minecraft"><a class="header" href="#minecraft">Minecraft</a></h1>
 <p>Welcome to the Minecraft section of my documentation! This is just the place for you to find
 documentation for any libraries I've made, or for any of the public plugins I've made.</p>
-<h2><a class="header" href="#libraries" id="libraries">Libraries</a></h2>
+<h2 id="libraries"><a class="header" href="#libraries">Libraries</a></h2>
 <ul>
 <li><a href="minecraft/./ac/index.html">Apollo Core</a></li>
 </ul>
-<h2><a class="header" href="#plugins" id="plugins">Plugins</a></h2>
+<h2 id="plugins"><a class="header" href="#plugins">Plugins</a></h2>
 <blockquote>
 <p>such empty, much wow.</p>
 </blockquote>
-<h1><a class="header" href="#apollo-core" id="apollo-core">Apollo Core</a></h1>
+<h1 id="apollo-core"><a class="header" href="#apollo-core">Apollo Core</a></h1>
 <p><a href="https://github.com/GreatGodApollo/ac">Apollo Core</a> is a Java library for making Bukkit plugins faster and easier. I have personally used it
 for quick plugins for messing around, and for larger projects. It has saved me countless hours of work
 and I hope it will for you too!</p>
-<h1><a class="header" href="#getting-started" id="getting-started">Getting Started</a></h1>
-<h2><a class="header" href="#installation" id="installation">Installation</a></h2>
+<h1 id="getting-started"><a class="header" href="#getting-started">Getting Started</a></h1>
+<h2 id="installation"><a class="header" href="#installation">Installation</a></h2>
 <p>It's hard to get started with a library if you don't have it installed, so let's take care of that:</p>
-<h3><a class="header" href="#maven" id="maven">Maven</a></h3>
+<h3 id="maven"><a class="header" href="#maven">Maven</a></h3>
 <p>To install AC in your Maven managed plugin, just insert these lines where appropriate, 
 and update the version numbers:</p>
 <pre><code class="language-xml">&lt;repository&gt;
@@ -204,7 +204,7 @@ and update the version numbers:</p>
     &lt;scope&gt;provided&lt;/scope&gt;
 &lt;/dependency&gt;
 </code></pre>
-<h3><a class="header" href="#gradle" id="gradle">Gradle</a></h3>
+<h3 id="gradle"><a class="header" href="#gradle">Gradle</a></h3>
 <p>Installing AC in you Gradle managed plugin is just as easy, insert these lines where they apply,
 updating the version numbers when appropriate.</p>
 <pre><code class="language-Gradle">repositories {
@@ -218,7 +218,7 @@ dependencies {
     compileOnly group: 'xyz.brettb', name: 'ac', version: '0.13.0'
 }
 </code></pre>
-<h2><a class="header" href="#usage" id="usage">Usage</a></h2>
+<h2 id="usage"><a class="header" href="#usage">Usage</a></h2>
 <p>Using AC in your plugin is also quite easy:</p>
 <pre><code class="language-java">package xyz.brettb.example;
 
@@ -259,36 +259,36 @@ public class example extends CorePlugin {
 }
 </code></pre>
 <hr />
-<h2><a class="header" href="#help" id="help">Help</a></h2>
+<h2 id="help"><a class="header" href="#help">Help</a></h2>
 <p>If you need help with AC feel free to message me on Discord @ <code>apollo#9292</code>, or opening an issue on <a href="https://github.com/GreatGodApollo/ac">GitHub</a></p>
-<h2><a class="header" href="#further-documentation" id="further-documentation">Further Documentation</a></h2>
+<h2 id="further-documentation"><a class="header" href="#further-documentation">Further Documentation</a></h2>
 <p>At this time no further documentation exists, my best recommendation is to look at the <a href="https://github.com/GreatGodApollo/ac">source code</a> and figure things out for yourself.
 If you'd like to write better documentation for me, be my guest!</p>
-<h1><a class="header" href="#prevue" id="prevue">Prevue</a></h1>
+<h1 id="prevue"><a class="header" href="#prevue">Prevue</a></h1>
 <p><a href="http://prevueguide.com/wiki/Main_Page">Prevue</a> (ESQ) was the software behind the Prevue Channel. Prevue ran on the Amiga platform. The software displays a grid
 of channels and the current listings. Randomly learning about it from a friend, I decided to write a <a href="prevue/./genday/index.html">CLI</a> to help generate the 
 listing files (<code>curday.dat</code>). </p>
-<h1><a class="header" href="#genday" id="genday">genday</a></h1>
+<h1 id="genday"><a class="header" href="#genday">genday</a></h1>
 <p><a href="https://github.com/GreatGodApollo/genday">Genday</a> is my version of a CLI to generate <code>curday.dat</code> files. For now, it both exposes a public
 API to define curdays in code, and a JSON converter. If this sounds useful to you, head on over to the
 <a href="prevue/genday/./installation.html">Installation</a> page.</p>
-<h1><a class="header" href="#installation-1" id="installation-1">Installation</a></h1>
+<h1 id="installation-1"><a class="header" href="#installation-1">Installation</a></h1>
 <p>To start it all off, you're going to need to install <code>genday</code>, which can be done one of two ways, either by directly downloading the executable, or via <code>go get</code></p>
-<h3><a class="header" href="#standard-download" id="standard-download">Standard Download</a></h3>
+<h3 id="standard-download"><a class="header" href="#standard-download">Standard Download</a></h3>
 <p>If you don't have go installed, you can just head on over to the <a href="https://github.com/GreatGodApollo/genday/releases">releases</a> page and download the 
 latest release for your platform. Extract it using something like <a href="https://www.7-zip.org">7-Zip</a> for Windows or 
 <code>tar</code> on other platforms (<code>tar -zxvf genday*.tar.gz</code>).</p>
 <p>That's it! Although you'll probably want to also add the binary to your path for ease of use.</p>
-<h3><a class="header" href="#go-get" id="go-get"><code>go get</code></a></h3>
+<h3 id="go-get"><a class="header" href="#go-get"><code>go get</code></a></h3>
 <p>If you <strong>do</strong> have go installed, you can just run a single command to install <code>genday</code>:</p>
 <pre><code class="language-shell">$ go get -u github.com/GreatGodApollo/genday
 </code></pre>
-<h3><a class="header" href="#scoop" id="scoop">Scoop</a></h3>
+<h3 id="scoop"><a class="header" href="#scoop">Scoop</a></h3>
 <p>If you happen to have <a href="https://github.com/lukesampson/scoop">scoop</a> installed, I happen to have a <a href="https://github.com/lukesampson/scoop">scoop</a> bucket. Said bucket's name is <a href="https://github.com/GreatGodApollo/trough">Trough</a>.</p>
 <pre><code class="language-shell">$ scoop bucket add trough https://github.com/GreatGodApollo/trough.git
 $ scoop install genday
 </code></pre>
-<h1><a class="header" href="#usage-1" id="usage-1">Usage</a></h1>
+<h1 id="usage-1"><a class="header" href="#usage-1">Usage</a></h1>
 <pre><code class="language-shell">$ genday --help
     Usage: genday [--version] [--verbose] COMMAND [arg...]
 
@@ -309,7 +309,7 @@ $ scoop install genday
     [GD] Generated X listings
 </code></pre>
 <p>To learn more about this JSON format, <a href="prevue/genday/./format.html">read on</a>.</p>
-<h1><a class="header" href="#json-format" id="json-format">JSON Format</a></h1>
+<h1 id="json-format"><a class="header" href="#json-format">JSON Format</a></h1>
 <p>I'd like to think that the JSON format is pretty straightforward, but that's pretty
 difficult to argue.</p>
 <p>First up: We need to define a few settings. Now I'm not gonna lie, I don't really
@@ -373,14 +373,14 @@ they're pretty darn simple!</p>
 and <code>summary</code> marks it as a summary channel as well. Unfortunately, due to the way I 
 programmed things, you <strong>do</strong> need to specify all of these options as false, even if
 you aren't using them.</p>
-<h1><a class="header" href="#spacebin" id="spacebin">Spacebin</a></h1>
+<h1 id="spacebin"><a class="header" href="#spacebin">Spacebin</a></h1>
 <p><a href="https://spaceb.in">Spacebin</a> is text sharing for the final frontier. It's essentially a redesign of [haste][hst] in TypeScript,
 using Svelte for the web interface, and Koa for the backend. I decided to build an <a href="spacebin/./lunar/index.html">API client</a> &amp; <a href="spacebin/./gospacebin/index.html">library</a> for GoLang,
 mostly because it's one of my favorite languages, but also because I needed a project.</p>
-<h1><a class="header" href="#gospacebin" id="gospacebin">gospacebin</a></h1>
+<h1 id="gospacebin"><a class="header" href="#gospacebin">gospacebin</a></h1>
 <p><a href="https://github.com/GreatGodApollo/gospacebin">gospacebin</a> is a <a href="https://spaceb.in">Spacebin</a> API library written in Go. If you don't feel like reading these docs, head on over to <a href="https://pkg.go.dev/github.com/GreatGodApollo/gospacebin">pkg.go.dev</a>
 to see the automatically generated package documentation. However, if you're too lazy to read technical docs, keep on <a href="spacebin/gospacebin/./usage.html">reading</a>.</p>
-<h1><a class="header" href="#usage-2" id="usage-2">Usage</a></h1>
+<h1 id="usage-2"><a class="header" href="#usage-2">Usage</a></h1>
 <p>To get started with gospacebin, just import it into your project:</p>
 <pre><code class="language-go">import &quot;github.com/GreatGodApollo/gospacebin&quot;
 </code></pre>
@@ -396,21 +396,21 @@ doc, err := spacebin.CreateDocument(opts)
 // etc, etc...
 </code></pre>
 <p>For more technical documentation, please look at <a href="https://pkg.go.dev/github.com/GreatGodApollo/gospacebin">pkg.go.dev</a></p>
-<h1><a class="header" href="#lunar" id="lunar">lunar</a></h1>
+<h1 id="lunar"><a class="header" href="#lunar">lunar</a></h1>
 <p><a href="https://github.com/GreatGodApollo/lunar">Lunar</a> is my Go rendition of a <a href="https://spaceb.in">Spacebin</a> CLI. As of right now it supports specifying a document via the command line,
 or piping one directly in. If you're ready to get going, head on over to <a href="spacebin/lunar/./installation.html">Installation</a>.</p>
-<h1><a class="header" href="#installation-2" id="installation-2">Installation</a></h1>
+<h1 id="installation-2"><a class="header" href="#installation-2">Installation</a></h1>
 <p>To start it all off, you're going to need to install <code>lunar</code>, which can be done one of two ways, either by directly downloading the executable, or via <code>go get</code></p>
-<h3><a class="header" href="#standard-download-1" id="standard-download-1">Standard Download</a></h3>
+<h3 id="standard-download-1"><a class="header" href="#standard-download-1">Standard Download</a></h3>
 <p>If you don't have go installed, you can just head on over to the <a href="https://github.com/GreatGodApollo/lunar/releases">releases</a> page and download the 
 latest release for your platform. Extract it using something like <a href="https://www.7-zip.org">7-Zip</a> for Windows or 
 <code>tar</code> on other platforms (<code>tar -zxvf lunar*.tar.gz</code>).</p>
 <p>That's it! Although you'll probably want to also add the binary to your path for ease of use.</p>
-<h3><a class="header" href="#go-get-1" id="go-get-1"><code>go get</code></a></h3>
+<h3 id="go-get-1"><a class="header" href="#go-get-1"><code>go get</code></a></h3>
 <p>If you <strong>do</strong> have go installed, you can just run a single command to install <code>lunar</code>:</p>
 <pre><code class="language-shell">$ go get -u github.com/GreatGodApollo/lunar
 </code></pre>
-<h1><a class="header" href="#usage-3" id="usage-3">Usage</a></h1>
+<h1 id="usage-3"><a class="header" href="#usage-3">Usage</a></h1>
 <pre><code class="language-shell">$ lunar --help
     Lunar is a CLI for Spacebin that allows you to easily make documents.
     This application can be used in a couple of different ways
@@ -444,11 +444,11 @@ $ type file.txt | lunar
 <p>or specify a document to upload:</p>
 <pre><code class="language-shell">$ lunar -f file.txt
 </code></pre>
-<h1><a class="header" href="#configuration" id="configuration">Configuration</a></h1>
+<h1 id="configuration"><a class="header" href="#configuration">Configuration</a></h1>
 <p>As of yet, there are only two values you can configure via <code>$HOME/.lunar.yaml</code>:</p>
-<h2><a class="header" href="#instance" id="instance"><code>instance</code></a></h2>
+<h2 id="instance"><a class="header" href="#instance"><code>instance</code></a></h2>
 <p>This is the API instance that you're uploading your documents to. The default is <code>https://api.spaceb.in</code>.</p>
-<h2><a class="header" href="#result-url" id="result-url"><code>result-url</code></a></h2>
+<h2 id="result-url"><a class="header" href="#result-url"><code>result-url</code></a></h2>
 <p>This is the base of the final URL that is output, defaulting to <code>https://spaceb.in/</code>. Currently the default URL
 does not actually resolve to your document (as the frontend for Spacebin has not been finished), so I recommend
 switching it to <code>https://api.spaceb.in/api/v1/document/</code> and using the <code>-r</code> flag until the frontend is finished.</p>
